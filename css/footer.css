@@ -1,0 +1,86 @@
+footer {
+  padding-left: 185px;
+  padding-right: 85px;
+  background: url('../img/logo-footer.png') no-repeat #1f1e1e;
+  background-position: 97px center;
+  overflow: hidden;
+  position: relative;
+}
+
+.copyright {
+  color: #868787;
+  line-height: 65px;
+  float: left;
+}
+
+.contacts {
+  height: 40px;
+  width: 170px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.contacts .telephone {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contacts .email {
+  color: #787878;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: #6f6e6e 1px solid;
+  float: right;
+  margin-top: 13px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.social:hover {
+  border-color: #cb0a27;
+}
+
+.facebook {
+  background: url(../img/facebook.svg) no-repeat center;
+}
+
+.instagram {
+  background: url(../img/instagram.svg) no-repeat center;
+}
+
+.twitter {
+  background: url(../img/twitter.svg) no-repeat center;
+}
+
+@media (max-width: 1280px) {
+  footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-position: center 5px;
+  }
+
+  .contacts, .copyright {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .social {
+    float: none;
+    display: inline-block;
+  }
+
+  .contacts {
+    position: relative;
+  };
+}

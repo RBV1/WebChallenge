@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="15" height="26" viewBox="0 0 15 26">
+  <defs>
+    <style>
+      .cls-1, .cls-12, .cls-15 {
+        fill: #cb0a27;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-opacity: 0;
+      }
+
+      .cls-15, .cls-2, .cls-3, .cls-5 {
+        font-size: 14px;
+      }
+
+      .cls-10, .cls-14, .cls-3 {
+        text-anchor: middle;
+      }
+
+      .cls-14, .cls-4, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-14, .cls-16, .cls-4 {
+        font-family: "Futura-Medium";
+      }
+
+      .cls-13, .cls-14, .cls-17, .cls-4 {
+        font-size: 12px;
+      }
+
+      .cls-14, .cls-17, .cls-4 {
+        text-transform: uppercase;
+      }
+
+      .cls-10, .cls-15, .cls-5 {
+        font-family: "FontAwesome";
+      }
+
+      .cls-10, .cls-11, .cls-6 {
+        fill: #1f1e1e;
+      }
+
+      .cls-11, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-10, .cls-9 {
+        font-size: 20px;
+      }
+
+      .cls-11 {
+        opacity: 0.7;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <rect x="526" y="-115" width="270" height="59" class="cls-1"/>
+      <text transform="translate(796 -79) rotate(180)" class="cls-2"><tspan x="0" class="cls-3"><tspan class="cls-4">Get started now  <tspan class="cls-5"> </tspan></tspan></tspan></text>
+    </g>
+    <g>
+      <g>
+        <rect x="1277" y="-18" width="67" height="67" class="cls-6"/>
+        <path d="M-1289.005,24.725 L-1290.203,26.011 L-1303.377,13.695 L-1303.208,13.513 L-1303.995,12.663 L-1290.512,-0.011 L-1289.286,1.313 L-1301.633,12.920 L-1289.005,24.725 Z" class="cls-7"/>
+      </g>
+      <path d="M14.208,13.513 L14.377,13.695 L1.203,26.011 L0.005,24.725 L12.633,12.920 L0.286,1.313 L1.512,-0.011 L14.995,12.663 L14.208,13.513 Z" class="cls-7"/>
+    </g>
+    <g>
+      <rect x="967" y="-820" width="36" height="36" class="cls-8"/>
+      <text transform="translate(989 -809) rotate(180)" class="cls-9"><tspan x="0" class="cls-10"></tspan></text>
+      <rect x="660" y="-820" width="36" height="36" class="cls-8"/>
+      <text transform="translate(677 -809) rotate(180)" class="cls-9"><tspan x="0" class="cls-10"> </tspan></text>
+    </g>
+    <path d="M-63.000,687.000 L-70.000,691.000 L-70.000,688.000 L-98.000,688.000 L-101.000,688.000 L-132.000,688.000 L-132.000,686.000 L-101.000,686.000 L-98.000,686.000 L-70.000,686.000 L-70.000,682.999 L-63.000,687.000 Z" class="cls-11"/>
+    <path d="M-1192.000,688.000 L-1195.000,688.000 L-1223.000,688.000 L-1223.000,691.000 L-1230.000,687.000 L-1223.000,682.999 L-1223.000,686.000 L-1195.000,686.000 L-1192.000,686.000 L-1161.000,686.000 L-1161.000,688.000 L-1192.000,688.000 Z" class="cls-11"/>
+    <g>
+      <rect x="977" y="-1442" width="270" height="59" class="cls-12"/>
+      <text transform="translate(1247 -1409) rotate(180)" class="cls-13"><tspan x="0" class="cls-14">Learn more</tspan></text>
+    </g>
+    <g>
+      <rect x="526" y="-3086" width="270" height="60" class="cls-8"/>
+      <text transform="translate(796 -3049) rotate(180)" class="cls-2"><tspan x="0" class="cls-3"><tspan class="cls-15"><tspan class="cls-16">    <tspan class="cls-17">Send message</tspan></tspan></tspan></tspan></text>
+    </g>
+  </g>
+</svg>

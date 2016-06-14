@@ -1,0 +1,124 @@
+.cmn-toggle-switch
+{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  cursor: pointer;
+  display: block;
+  float: right;
+  font-size: 0;
+  height: 100%;
+  margin: 0;
+  moz-appearance: none;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-indent: -9999px;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+  webkit-appearance: none;
+  webkit-transition: background 0.3s;
+  width: 36px;
+}
+.cmn-toggle-switch:focus
+{
+  outline: none;
+}
+.cmn-toggle-switch span
+{
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 30px;
+}
+.cmn-toggle-switch span::before,
+.cmn-toggle-switch span::after
+{
+  background-color: #fff;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+}
+.line-menu .cmn-toggle-switch span::before,
+.line-menu .cmn-toggle-switch span::after,
+.line-menu .cmn-toggle-switch span
+{
+  background-color: #000;
+}
+.cmn-toggle-switch span::before
+{
+  top: -5px;
+}
+.cmn-toggle-switch span::after
+{
+  bottom: -5px;
+}
+.cmn-toggle-switch__htx span
+{
+  -webkit-transition: background 0 0.3s;
+  transition: background 0 0.3s;
+  webkit-transition: background 0 0.3s;
+}
+.cmn-toggle-switch__htx span::before,
+.cmn-toggle-switch__htx span::after
+{
+  -webkit-transition-delay: 0.3s, 0;
+          transition-delay: 0.3s, 0;
+  -webkit-transition-duration: 0.3s, 0.3s;
+          transition-duration: 0.3s, 0.3s;
+  webkit-transition-delay: 0.3s, 0;
+  webkit-transition-duration: 0.3s, 0.3s;
+}
+.cmn-toggle-switch__htx span::before
+{
+  -webkit-transition-property: top, -webkit-transform;
+  transition-property: top, -webkit-transform;
+  transition-property: top, transform;
+  transition-property: top, transform, -webkit-transform;
+  webkit-transition-property: top, -webkit-transform;
+}
+.cmn-toggle-switch__htx span::after
+{
+  -webkit-transition-property: bottom, -webkit-transform;
+  transition-property: bottom, -webkit-transform;
+  transition-property: bottom, transform;
+  transition-property: bottom, transform, -webkit-transform;
+  webkit-transition-property: bottom, -webkit-transform;
+}
+.cmn-toggle-switch__htx.active span
+{
+  background: none;
+}
+.cmn-toggle-switch__htx.active span::before
+{
+  ms-transform: rotate(45deg);
+  top: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  webkit-transform: rotate(45deg);
+  width: 25px;
+}
+.cmn-toggle-switch__htx.active span::after
+{
+  bottom: 0;
+  ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  webkit-transform: rotate(-45deg);
+  width: 25px;
+}
+.cmn-toggle-switch__htx.active span::before,
+.cmn-toggle-switch__htx.active span::after
+{
+  -webkit-transition-delay: 0, 0.3s;
+          transition-delay: 0, 0.3s;
+  webkit-transition-delay: 0, 0.3s;
+}

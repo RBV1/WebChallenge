@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="16" height="2" viewBox="0 0 16 2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cb0a27;
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 30px;
+      }
+
+      .cls-3 {
+        font-family: "Futura-Medium";
+        text-transform: uppercase;
+      }
+
+      .cls-4 {
+        fill: #777;
+        font-size: 16px;
+        font-family: "FuturaBT-Book";
+      }
+    </style>
+  </defs>
+  <g>
+    <path d="M-0.000,2.000 L-0.000,-0.000 L16.000,-0.000 L16.000,2.000 L-0.000,2.000 Z" class="cls-1"/>
+    <text x="-542" y="-440" class="cls-2"><tspan class="cls-3">FAQ</tspan><tspan dy="1.2em" x="-542" class="cls-4">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam. Aaccusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et</tspan></text>
+  </g>
+</svg>

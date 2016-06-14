@@ -1,0 +1,80 @@
+.lets-chat
+{
+	background: url(../img/chat-background.jpg);
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 90px;
+	padding-top: 90px;
+	text-align: center;
+}
+.lets-chat h1
+{
+	font-size: 1.5em;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.lets-chat form
+{
+	margin: 0 auto;
+	max-width: 570px;
+	min-width: 270px;
+	padding-top: 40px;
+	width: 41%;
+}
+.lets-chat form input
+{
+	border: none;
+	box-sizing: border-box;
+	height: 40px;
+	max-width: 270px;
+	min-width: 100px;
+	padding-left: 14px;
+	width: 47%;
+	max-width: 47%;
+}
+.lets-chat form input:first-of-type
+{
+	float: left;
+	margin-right: 5%;
+}
+.lets-chat textarea
+{
+	box-sizing: border-box;
+	height: 70px;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	padding-left: 14px;
+	padding-top: 5px;
+	width: 100%;
+}
+.lets-chat input[type='submit']
+{
+	background: url(../img/plane.png) rgba(0,0,0,0) no-repeat 24% center;
+	border: #fff 1px solid;
+	min-width: 250px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 12px;
+	height: 60px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.lets-chat input[type='submit']:hover
+{
+	background: url(../img/plane-red.png) #fff no-repeat 24% center;
+	color: #cb0a27;
+}
+@media (max-width: 1280px)
+{
+	.lets-chat form input
+	{
+		margin-bottom: 5px;
+		min-width: 100%;
+		width: 100%;
+	}
+	.lets-chat textarea
+	{
+		margin-top: 0;
+	}
+}

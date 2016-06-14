@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="7" height="12" viewBox="0 0 7 12">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        font-size: 30px;
+      }
+
+      .cls-2 {
+        font-family: "Futura-Medium";
+        text-transform: uppercase;
+      }
+
+      .cls-3 {
+        fill: #777;
+        font-size: 16px;
+        font-family: "FuturaBT-Book";
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 20px;
+      }
+
+      .cls-5 {
+        fill: #cb0a27;
+        text-anchor: middle;
+        font-family: "FontAwesome";
+      }
+    </style>
+  </defs>
+  <g>
+    <text x="-537" y="-185" class="cls-1"><tspan class="cls-2">Feedbacks</tspan><tspan dy="1.2em" x="-537" class="cls-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos</tspan></text>
+    <text x="-10" y="12" class="cls-4"><tspan x="-10" class="cls-5">    </tspan></text>
+  </g>
+</svg>

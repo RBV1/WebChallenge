@@ -1,0 +1,95 @@
+.who-what-we {
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.who-what-we img {
+  width: 63.5%;
+}
+
+.who-what-we .container {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.who-what-we .description {
+  width: 36.5%;
+  padding-left: 97px;
+  padding-right: 130px;
+  box-sizing: border-box;
+  font-size: 1em;
+  padding-top: 30px;
+}
+
+.container img,
+.container  .description {
+  float: left;
+}
+
+.container div h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 76px;
+  letter-spacing: 5px;
+  background: url(../img/red-line.svg) no-repeat left bottom;
+}
+
+.container div p {
+  color: #8a8a8a;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  font-size: 13.5px;
+  line-height: 20px;
+}
+
+.learn-more {
+  height: 60px;
+  width: 270px;
+  line-height: 60px;
+  color: #cb0a27;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-align: center;
+  border: #cb0a27 1px solid;
+  margin-top: 25px;
+  -webkit-transition: color .3s, background .3s;
+  transition: color .3s, background .3s;
+}
+
+.learn-more:hover {
+  background: #cb0a27;
+  color: #fff;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    position: relative;
+    padding-bottom: 10%;
+  }
+
+  .who-what-we .description {
+    padding-left: 0;
+    position: relative;
+    padding-right: 0;
+    float: none;
+    margin: 0 auto;
+    margin-top: 50%;
+    width: 90%;
+  }
+
+  .who-what-we img {
+    width: 100%;
+    top: 0;
+    position: absolute;
+    float: left;
+  }
+
+  .learn-more {
+    margin: 0 auto;
+    margin-top: 10px;
+  };
+}
