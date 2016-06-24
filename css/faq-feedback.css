@@ -168,7 +168,7 @@ blockquote:before {
   background: url(../img/pointer-left-3.png) no-repeat center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1360px) {
   .feedbacks {
     padding-left: 0;
     padding-right: 0;
